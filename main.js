@@ -30,11 +30,11 @@ function headerShadow() {
 
 /* ----- TYPING EFFECT ----- */
 var typingEffect = new Typed(".typedText", {
-  strings: ["Full-Stack Developer", "UI/UX Designer , Software Engineer"],
+  strings: ["Full-Stack Developer", "UI/UX Designer" , "Software Engineer"],
   loop: true,
-  typeSpeed: 100,
+  typeSpeed: 80,
   backSpeed: 80,
-  backDelay: 2000,
+  backDelay: 1000,
 });
 
 /* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */

@@ -37,7 +37,7 @@ html{
     border-radius: 25px;
 }
 ::-webkit-scrollbar-track{
-    background: #f1f1f1;
+    background: #cef1f7;
 }
 ::-webkit-scrollbar-thumb{
     background: #ccc;
@@ -175,10 +175,11 @@ nav{
     padding-left: 20px;
 }
 .featured-text-card span{
-    background: var(--third-color);
+
+    background-color: rgb(159, 211, 253);
     color: var(--color-white);
     padding: 3px 8px;
-    font-size: 12px;
+    font-size: 17px;
     border-radius: 5px;
 }
 .featured-name{
@@ -210,14 +211,14 @@ nav{
 .social_icons{
     display: flex;
     margin-top: 5em;
-    gap: 30px;
+    gap: 40px;
 }
 .icon{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
@@ -268,7 +269,8 @@ nav{
    color: var(--text-color-second);
    background: var(--color-white);
    border-radius: 30px;
-   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+   border: 1px rgb(209, 237, 255) black;
+   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .scroll-btn i{
     font-size: 20px;
@@ -318,6 +320,7 @@ h3{
     padding-block: 30px 70px;
     padding-inline: 20px;
     width: 100%;
+    
     background: var(--color-white);
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     border-radius: 20px;
